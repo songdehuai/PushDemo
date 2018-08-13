@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/phone_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="推送参数设置"
+        android:textColor="#000000" />
+
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="绑定账号" />
+
+
+    <Button
+        android:id="@+id/init_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册" />
+
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="消息列表" />
+
+    <EditText
+        android:id="@+id/name_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="信鸽token" />
+
+    <EditText
+        android:id="@+id/mi_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="小米token" />
+
+</LinearLayout>
